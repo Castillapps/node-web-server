@@ -92,5 +92,5 @@ app.get('/bad', (req, res) => {
 
 //Bind our application to a port of my machine
 //for the port to start listening
-app.listen(3000, () => {console.log(`Server is up on port ${port}`)});
+app.listen(port, () => {console.log(`Server is up on port ${port}`)});
 
